@@ -20,9 +20,9 @@ LOG_FILE = "log.txt"
 KEY_FILE = "keys.json"
 
 # Cooldown settings
-COOLDOWN_TIME = 120  # in seconds
-CONSECUTIVE_ATTACKS_LIMIT = 50
-CONSECUTIVE_ATTACKS_COOLDOWN = 2 # in seconds
+COOLDOWN_TIME = 0  # in seconds
+CONSECUTIVE_ATTACKS_LIMIT = 100
+CONSECUTIVE_ATTACKS_COOLDOWN = 5 # in seconds
 
 # In-memory storage
 users = {}
